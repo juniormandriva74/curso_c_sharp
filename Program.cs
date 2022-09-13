@@ -2,20 +2,43 @@
 {
     static void Main()
     {
-        // Arrays
-        string[] names = { "Matheus", "Lindinalva", "Valdeci" };
+        BankAccount account1 = new BankAccount("Junior", 200);
+        BankAccount account2 = new BankAccount("Matheus", 500);
 
-        foreach (string name in names)
+        account1.Deposito(-100);
+        account2.Deposito(100);
+    }
+}
+
+class BankAccount
+{
+    private string name;
+    private decimal balance;
+
+    // Definindo o construtor
+    public BankAccount(string name, decimal balance)
+    {
+        if(string.IsNullOrWhiteSpace(name))
         {
-            Console.WriteLine(name);
+            throw new ArgumentException("Nome inválido.", nameof(name));
         }
 
-        /*
-        for (int i = 0; i < names.Length; i++)
+        if(balance < 0)
         {
-            Console.WriteLine(names[i]);
+            throw new Exception("O saldo não pode ser negativo.");
         }
-        */
+
+        this.name = name;
+        this.balance = balance;
+    }
+
+    public void Deposito(decimal amount)
+    {
+        if(amount <= 0)
+        {
+            return;
+        }
+        balance = balance + amount;
     }
 }
 

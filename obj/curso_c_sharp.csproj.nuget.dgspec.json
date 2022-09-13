@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/junior/Documentos/projetos/c_sharp/curso_c_sharp/curso_c_sharp.csproj": {}
+    "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj": {}
   },
   "projects": {
-    "/home/junior/Documentos/projetos/c_sharp/curso_c_sharp/curso_c_sharp.csproj": {
+    "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/junior/Documentos/projetos/c_sharp/curso_c_sharp/curso_c_sharp.csproj",
+        "projectUniqueName": "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj",
         "projectName": "curso_c_sharp",
-        "projectPath": "/home/junior/Documentos/projetos/c_sharp/curso_c_sharp/curso_c_sharp.csproj",
+        "projectPath": "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj",
         "packagesPath": "/home/junior/.nuget/packages/",
-        "outputPath": "/home/junior/Documentos/projetos/c_sharp/curso_c_sharp/obj/",
+        "outputPath": "/home/junior/Documentos/projetos/c#/curso_c_sharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/junior/.nuget/NuGet/NuGet.Config"

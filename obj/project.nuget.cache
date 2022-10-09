@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlzI5gWNCltPn8oKvQj/dYoIaGzIvRtbXGroUTv0ZhoIiSZ5IKyyMhKdhsPkDKPcigELTHwrmXK5MOJMEjFOEw==",
+  "dgSpecHash": "tsylfetqJKNoD68NL8zN7iVOo8PVsyERp1B0LqyfVAhikS6FSW3BBhpJF2rNaD1uEGzbPM997ngsU6diOSYxuQ==",
   "success": true,
-  "projectFilePath": "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj",
+  "projectFilePath": "/home/junior/Documentos/projetos/dotnet/curso-c-sharp/curso_c_sharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

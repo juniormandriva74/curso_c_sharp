@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj",
+      "projectUniqueName": "/home/junior/Documentos/projetos/dotnet/curso-c-sharp/curso_c_sharp.csproj",
       "projectName": "curso_c_sharp",
-      "projectPath": "/home/junior/Documentos/projetos/c#/curso_c_sharp/curso_c_sharp.csproj",
+      "projectPath": "/home/junior/Documentos/projetos/dotnet/curso-c-sharp/curso_c_sharp.csproj",
       "packagesPath": "/home/junior/.nuget/packages/",
-      "outputPath": "/home/junior/Documentos/projetos/c#/curso_c_sharp/obj/",
+      "outputPath": "/home/junior/Documentos/projetos/dotnet/curso-c-sharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/junior/.nuget/NuGet/NuGet.Config"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/dotnet6/dotnet-sdk-6.0.401-linux-x64/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

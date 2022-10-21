@@ -2,16 +2,31 @@
 
 class Principal {
 
-    enum DiasSemana{Domingo,Segunda,Terca,Quarta,Quinta,Sexta,Sabado}; //Referente a aula 10
+    //enum DiasSemana{Domingo,Segunda,Terca,Quarta,Quinta,Sexta,Sabado}; //Referente a aula 10
     static void Main() {
 
-        // Aula 10 - Enumeradores (enum)
+        // Aula 12 - Condicionar IF
 
+        
+
+        // Aula 11 - Conversões de tipos (typecast)
+        /*
+
+        int n1=10;
+        float n2=n1; //Conversão implícita, mas de float para int so na conversão explícita
+
+        float n3=8.9f;
+        int n4=(int)n3;
+
+        Console.WriteLine(n4); */
+
+        // Aula 10 - Enumeradores (enum)
+        /*
         DiasSemana ds = DiasSemana.Domingo;
         Console.WriteLine(ds);
 
         DiasSemana ds2 = (DiasSemana)3;
-        Console.WriteLine(ds2);
+        Console.WriteLine(ds2); */
 
         // Aula 09 - Operações de Bitwise
         // Para a esquerda dobra o valor, 
